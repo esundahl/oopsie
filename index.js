@@ -14,7 +14,7 @@ function m(status, message) {
 	}
 }
 
-function sanitize() {
+function sanitize(status) {
 	switch (status) {
 	case 501: return 'Not Implemented'
 	case 502: return 'Bad Gateway'
